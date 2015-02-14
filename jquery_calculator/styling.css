@@ -1,0 +1,36 @@
+#calculator {
+  background-color: grey;
+  margin: 10%;
+  width: 200px;
+  height: 320px;
+
+}
+
+#screen {
+  background-color: blue;
+  float: right;
+  height: 10%;
+  width: 90%;
+  margin: 5px 5px;
+  text-align: right;
+  color: white;
+}
+
+#nums {
+  margin-left: 25px;
+}
+
+
+#nums span {
+  float: left;
+  position: relative;
+  top: 0;
+
+  cursor: pointer;
+
+  width: 66px;
+  height: 36px;
+  margin: 3px;
+  padding: 2px;
+  background-color: white;
+}
